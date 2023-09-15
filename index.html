@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        .carousel-item {
+            height: 32rem;
+        }
+    </style>
+
+
+
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">WELCOME</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#profession">Profession</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index1.html">Photo Album</a>
+                        </li>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contact me
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://www.linkedin.com/in/matthew-brooks-434b09288">Follow on
+                                        Linkdin</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.facebook.com/matthewbrooksmc?mibextid=LQQJ4d">Join me on
+                                        Facebook</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://instagram.com/matthewbrooksmc?igshid=NTc4MTIwNjQ2YQ==">Follow me
+                                        on Instagram</a></li>
+                                <li><a class="dropdown-item" href="#">Follow on Twitter</a></li>
+                                <li><a class="dropdown-item" href="#">Email: Matthewbrooks@engineer.com</a></li>
+                                
+                            </ul>
+                        </div>
+
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--End Of Navbar-->
+
+    <main>
+
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <img src="IMG_1806 2.JPG" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" /></img>
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>I'm Matthew Brooks</h1>
+                            <p>I am 69years old and I am the proud CEO of MC VENTURES</p>
+                            <p><a class="btn btn-lg btn-primary" href="index1.html">View Photo Album</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG_1805 2.JPG" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" /></svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>I'm Matthew Brooks.</h1>
+                            <p>I was born and raised at Instanbul Turkey, My mom was American while my dad was Turkish.
+                            </p>
+                            <p><a class="btn btn-lg btn-primary" href="index1.html">View Photo Album</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG_1807 2.JPG" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" /></svg>
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>I'm Matthew Brooks</h1>
+                            <p>I am widowed and I have a beautiful daughter, her name is Lucy, she's an adorable child.
+                                <br> Click the button below to access family photo gallery.
+                            </p>
+                            <p><a class="btn btn-lg btn-primary" href="index1.html">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!-- Marketing messaging and featurettes
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content.
+
+        <div class="container marketing">
+
+            <-- Three columns of text below the carousel -->
+        <div class="row" id="education">
+            <div class="col-lg-4">
+                <img src="WhatsApp Image 2023-09-12 at 11.09.19.jpeg" class="bd-placeholder-img rounded-circle"
+                    width="140" height="140" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice"
+                    focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+                </img>
+                <h2>1992-1996
+                    <h3>Bachelor telecommunication Engineering</h3>
+                </h2>
+                <p>I got my Bachelor degree in telecommunication engineering at the Texas University of Texas Dallas
+                </p>
+                <p><a class="btn btn-secondary" href="#">Read more &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="WhatsApp Image 2023-09-12 at 11.09.25.jpeg" class="bd-placeholder-img rounded-circle"
+                    width="140" height="140" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice"
+                    focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+                </svg>
+
+                <h2>1996-1998
+                    <h3>Masters Petroleum Engineering</h3>
+                </h2>
+                <p>Gained my Masters from the University of Illinois Chicago.</p>
+                <p><a class="btn btn-secondary" href="#">Read more &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="WhatsApp Image 2023-09-12 at 11.21.51.jpeg" class="bd-placeholder-img rounded-circle"
+                    width="140" height="140" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice"
+                    focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+                </img>
+
+                <h2>1985-1987
+                    <h3>Masters Telecommunication Engineering</h3>
+                </h2>
+                <p>I secured my masters Degree in Telecom Engineering at BOGAZICI UNIVERSITY Turkey</p>
+                <p><a class="btn btn-secondary" href="#">Read more &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!--START THE FEATURETTES-->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">I am a widower. <span class="text-muted">I have been a widower for
+                        6yrs.</span></h2>
+                <p class="lead">Meet my beautiful daughter Lucy, she is currently 19yrs old, she was at a tender age
+                    when I lost my wife to cancer.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="IMG_1849 2.JPG"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+                    focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+                </img>
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider" id="profession">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">2010-Till Date. <span class="text-muted">My company Founded at the year
+                        above.</span></h2>
+                <p class="lead">My company was established on March 16, 2010, similar to many other companies. We began
+                    small but quickly progressed and started securing contracts due to my extensive experience in the
+                    telecommunications and petrochemical industry. Before I established my company, I previously worked
+                    for some companies, namely: Shell Oil company,Head of Operations Charter Communications and
+                    Lumen Technologies,etc</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="Logo.jpeg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                    width="500" height="500" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+                    focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+                </img>
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider" id="profession">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">We Undertake Telecommunication contracts.<span
+                        class="text-muted">Globally</span></h2>
+                <p class="lead">MC Venture as a company have undergone various Telecom contracts at Turkey, France,
+                    Cuba, Venezuela. etc </p>
+            </div>
+            <div class="col-md-5">
+                <img src="istockphoto-1213293717-612x612.jpg"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+                    focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+                </img>
+
+            </div>
+        </div>
+        <hr class="featurette-divider" id="profession">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading"> <span class="text-muted">Petroleum Engineer
+                    </span></h2>
+                <p class="lead">Before I established my company at the month of march 16 2010, I previously worked
+                    for some companyies, namely: Shell Oil company,head of Operations Charter Communications and
+                    Lumen Technologies,etc</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="oil-gas-jobs-1024x695-1.jpg"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+                    focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+                </img>
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+        </div><!-- /.container -->
+
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-end"><a href="#">Back to top</a></p>
+            <p>&copy; 2010–2023 MC VENTURES INC. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
